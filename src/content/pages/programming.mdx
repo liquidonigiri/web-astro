@@ -1,0 +1,168 @@
+---
+
+title: "Programming"
+meta_title: ""
+description: "this is meta description"
+draft: false
+---
+
+## プログラミング言語
+- HTML & CSS
+- PHP
+- Python
+- Swift
+
+幅広いプログラミング言語を駆使して、私は様々なプロジェクトに貢献してきました。<br/>
+前職ではECサイトも運営していました。楽天市場、Yahoo!ショッピング、Amazon、EC-CUBE、Makeshop、カラーミーショップなどのプラットフォームも編集可能です。
+
+プログラミングは毎日の積み重ねがスキルアップに大切だと考えております。常に最新情報を収集（英語でも）しています。日々の学習と実践を通じて、プログラミングのスキルを向上させています。新しい挑戦を歓迎し、解決策を見つけることに情熱を注いでいます。
+
+---
+
+### PHP
+
+PHPはWordPressの運営のために使用しています。クライアントが求めるデザインをゼロからコーディングしつつオリジナルのテーマを作成しています。独自のカスタムレイアウトや機能を実現するために、PHP、HTML & CSS、jQueryなどの技術を駆使しています。、ユニークで魅力的なウェブサイトを制作しています。
+Pythonではにウェブスクレイピング、データの可視化、自動化、Djangoフレームワークを活用した開発を行っています。
+
+##### ウィジェットエリアの登録
+```html
+function my_custom_widgets_init() {
+    register_sidebar( array(
+        'name'          => 'Custom Widget Area',
+        'id'            => 'custom-widget-area',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'my_custom_widgets_init' );
+```
+
+---
+
+### Python
+
+Pythonではにウェブスクレイピング、データの可視化、自動化、Djangoフレームワークを活用した開発を行っています。PythonはAI分野で広く使われているプログラミング言語です。Pythonを扱えることは、現代のテクノロジー動向において大きな利点となります。
+
+##### ウィジェットエリアの登録
+```html
+function my_custom_widgets_init() {
+    register_sidebar( array(
+        'name'          => 'Custom Widget Area',
+        'id'            => 'custom-widget-area',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h2 class="widget-title">',
+        'after_title'   => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'my_custom_widgets_init' );
+```
+
+---
+
+### Swift
+
+SwiftUIを使ってMacのデスクトップアプリ(iPhoneアプリより）を作成しています。自分で「あったら便利」と思える機能を実装しています。
+
+##### コピーした項目を追加していくアプリ
+```html
+// 省略
+// 保存した項目をクリアする関数
+private func clearSavedItems() {
+    savedItems.removeAll()
+}
+
+// 追加した項目を全てコピーする関数
+private func copyAllToClipboard() {
+    let combinedText = savedItems.joined(separator: "\n")
+    let pasteboard = NSPasteboard.general
+    pasteboard.clearContents()
+    pasteboard.setString(combinedText, forType: .string)
+}
+```
+
+---
+
+### このウェブサイトについて
+
+Astroを使用してカスタマイズしています。TailwindCSS、TypeScriptなどを使用しています。Google ページスピードが高速、ダークモード（右上に切り替えアイコンがあります）が特徴的です。以下は機能の詳細です。
+
+##### Quote
+> ここに引用する文章を入力します。ここに引用する文章を入力します。ここに引用する文章を入力します。ここに引用する文章を入力します。ここに引用する文章を入力します。ここに引用する文章を入力します。
+
+
+##### Notice
+
+<Notice type="note">サンプルテキストです。</Notice>
+
+<Notice type="tip">サンプルテキストです。</Notice>
+
+<Notice type="info">サンプルテキストです。</Notice>
+
+<Notice type="warning">サンプルテキストです。</Notice>
+
+
+##### Tab
+
+<Tabs client:load>
+
+<Tab name="Tab 1">
+
+#### タブ1です
+
+サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。
+
+サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。
+
+</Tab>
+
+<Tab name="Tab 2">
+
+#### タブ2です
+
+サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。
+
+サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。
+
+</Tab>
+
+<Tab name="Tab 3">
+
+#### タブ3です
+
+サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。
+
+サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。サンプルテキストです。
+
+</Tab>
+
+</Tabs>
+
+
+##### Table
+
+| No.   |    名前     |     点数     |       評価 |
+| :-- | :----------: | :----------: | -----------: |
+| 1   | ヤマダロウ | 1200 | A |
+| 2   | スズキタロウ | 800 | B |
+| 3   | サトウタロウ | 600 | C |
+
+##### Accordion
+
+<Accordion client:load title="アコーディオン1">
+- サンプルリストです。
+- サンプルリストです。
+- サンプルリストです。
+</Accordion>
+<Accordion client:load title="アコーディオン2">
+- サンプルリストです。
+- サンプルリストです。
+- サンプルリストです。
+</Accordion>
+<Accordion client:load title="アコーディオン3">
+- サンプルリストです。
+- サンプルリストです。
+- サンプルリストです。
+</Accordion>

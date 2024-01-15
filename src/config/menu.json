@@ -5,17 +5,17 @@
       "url": "/"
     },
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Programming",
+      "url": "/programming"
     },
     {
-      "name": "Elements",
-      "url": "/elements"
+      "name": "Creator",
+      "url": "/creator"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
+      "name": "Contact",
+      "url": "contact",
+      "hasChildren": false,
       "children": [
         {
           "name": "Contact",
@@ -46,12 +46,10 @@
   ],
   "footer": [
     {
-      "name": "Elements",
-      "url": "/elements"
+
     },
     {
-      "name": "Privacy Policy",
-      "url": "/privacy-policy"
+
     }
   ]
 }
