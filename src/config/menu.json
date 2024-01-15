@@ -18,10 +18,6 @@
       "hasChildren": false,
       "children": [
         {
-          "name": "Contact",
-          "url": "/contact"
-        },
-        {
           "name": "Blog",
           "url": "/blog"
         },
